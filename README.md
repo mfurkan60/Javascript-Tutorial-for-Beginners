@@ -13,9 +13,9 @@ I have divided some topics:
  6. Switch-Case
  7. Function
  8. Objects
- 9.JSon
- 10.DOM
- 11.Slider Application
+ 9. JSon
+ 10. DOM
+ 11. Slider Application
 
 
 
