@@ -15,6 +15,7 @@ I have divided some topics:
  8. Objects
  9.JSon
  10.DOM
+ 11.Slider Application
 
 
 
