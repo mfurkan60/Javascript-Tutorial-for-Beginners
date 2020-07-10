@@ -16,6 +16,7 @@ I have divided some topics:
  9. JSon
  10. DOM
  11. Slider Application
+ 12. Jquery Validation
 
 
 

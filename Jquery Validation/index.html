@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery Form Validation</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <div class="errors">
+        <div class="error">
+            <!--General errors-->
+            <p>Please Fill in the Blanks!</p>
+            
+            
+        </div>
+        <div class="passwordError">
+            <!--Password errors-->
+            <p>Please Enter the Password!</p>
+
+        </div>
+        <div class="emailError">
+
+            <!--Email  errors-->
+            <p>Please Check to Email!</p>
+        </div>
+        <div class="phoneError">
+            <!--General Phone  errors-->
+            <p>Please Check to Phone Number!</p>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <div class="form-group">
+            <label for="email">Email </label>
+            <input type="text" id="email">
+        </div>
+
+
+        <div class="form-group">
+            <label for="phone">Phone </label>
+            <input type="phone" id="phone">
+        </div>
+
+
+        <div class="form-group">
+            <label for="password">Password </label>
+            <input type="password" id="password">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password Again </label>
+            <input type="password" id="repassword">
+        </div>
+
+        <button id="btn">Kaydet</button>
+ </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

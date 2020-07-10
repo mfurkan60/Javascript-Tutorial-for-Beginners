@@ -1,0 +1,75 @@
+ body {
+     font-size: 22px
+ }
+
+ .error {
+     color: red;
+     text-align: center;
+     display: none
+ }
+
+ .passwordError {
+     color: red;
+     text-align: center;
+     display: none;
+ }
+
+ .emailError {
+     color: red;
+     text-align: center;
+     display: none;
+ }
+
+ .phoneError {
+     color: red;
+     text-align: center;
+     display: none;
+ }
+
+ .wrapper {
+     width: 450px;
+     margin: 0 auto;
+ }
+
+ .wrapper {
+
+     margin-top: 25px;
+     height: 100%;
+    
+ }
+
+ input {
+     padding: 8px;
+     font-size: 25px;
+     border-radius: 5px;
+     border: 1px solid grey;
+     width: 350px;
+     cursor: pointer
+ }
+input:hover{
+    transition: .6s;
+    width: 375px;
+}
+
+ label {
+     display: inline-block;
+     width: 170px
+ }
+
+ .form-group {
+     margin-bottom: 15px
+ }
+
+ button {
+     background-color: green;
+     color: #fff;
+     padding: 14px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     width: 375px
+ }
+button:hover{
+    transition: .6s;
+    background-color: #fff;
+    color: green
+}
