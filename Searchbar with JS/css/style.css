@@ -1,0 +1,35 @@
+.container{ 
+    margin: auto;/*Center to container */
+  width: 50%; /* 50%-width */
+  border: 3px solid green;/* green border*/
+  padding: 10px; /* all side included padding 10px */
+}
+
+#myInput {
+  width: 90%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 30px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+#countries {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#countries li  {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  cursor:pointer;
+}
+#countries li:hover{
+  background-color:grey;
+  color:#fff;
+}
