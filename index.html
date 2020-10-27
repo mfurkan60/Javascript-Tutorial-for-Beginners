@@ -1,28 +1,676 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>Javascript Tutorial</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            box-shadow: 5px 5px
+        }
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        section {
+            margin-top: 1rem;
+        }
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    </style>
+</head>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<body>
+    <h1 class="text-center">Welcome to Javascript Tutorial</h1>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Javascript Tutorial for Beginner </h2>
+                    <p class="text-center"> Hi! I’m Mert, computer engineering student
+                        and freelancer web developer. Welcome to Javascript Beginner Tutorial. </p>
+                    <div class="contactUs text-center ">
+                        <p class="text-center"><i class="far fa-smile"></i>Contact Me</p>
+                        <p class="text-center"><i class="fas fa-arrow-down"></i></p>
+                        <i class="fab fa-github"></i> <a href="https://github.com/mfurkan60/">Github</a> <br>
+                        <i class="fas fa-code"></i> <a href="https://www.mertfurkanerguden.com/"> Web Site</a><br>
+                        <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/mertfurkanerguden/">Linkedin</a>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-3">
+                    <h3 class="text-center">Table of Contents</h3>
+                    <ul class="list-group">
+                        <a href="">
+                            <li class="list-group-item">Chapter 1: Welcome the this tutorual</li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chapter2: Starting Javascript</li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chapter3: Variables </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 4: Strings:</li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 5 :Arrays</li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 6: Loops </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 7: Switch-Case </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 8: Function </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 9: Objects </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 10: JSon </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 11: DOM </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 12: Slider Application </li>
+                        </a>
+                        <a href="">
+                            <li class="list-group-item">Chepter 13: Jquery Validation </li>
+                        </a>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Welcome the this tutorual </h2>
+                    <p>The purpose of this book provide an overview the Javascript Programing Language</p>
+                    <p>
+                        JavaScript is the programming language of HTML and the Web. W3schools Tutorial JavaScript is easy to learn programing language.
+
+                        In this tutorial will show some examples of JavaScript Programing Language from basic to advanced level. I have divided some topics:</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>What is Javascript? </h2>
+                    <p>JavaScript is the world's most popular programming language and JavaScript is easy to learn.
+
+                        JavaScript is the programming language of the Web.
+
+
+
+                    </p>
+                    <p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Variables </h2>
+                    <p>Before 2015, we are using the var keyword was the only way to declare a JavaScript variable.</p>
+                    <p>but after the 2015 version of JavaScript (ES6 - ECMAScript 2015) allows the use of the const keyword to define a variable that cannot be reassigned, and the let keyword to define a variable with restricted scope.</p>
+
+
+                    <p> In this example, x, y, and z, are variables, declared with the var keyword:</p>
+
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+
+                        var x = 5;<br>
+                        var y = 6;<br>
+                        var z = x + y;
+
+
+
+
+                    </div>
+                    <p>After the version 2015</p>
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+
+                        let x = 5;<br>
+                        let y = 6;<br>
+                        let z = x + y;
+
+                        const piValue =3.14;
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Strings </h2>
+                    <p>JavaScript strings are used for storing and manipulating text values.</p>
+
+                    <p>You can use single or double quotes for defination value</p>
+
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+
+                        let value;
+
+                        const firstName = "AlexAlex";<br>
+                        const lastName = "Luly";<br>
+
+                        const langs = "Java,Python,C++";
+                        <br>
+                        value = firstName + lastName;<br>
+
+                        value = firstName + " " + lastName; //string concatenation<br>
+
+
+                        value = firstName.length; // length of string<br>
+
+
+                        value = firstName.toLowerCase(); // to lowercase<br>
+
+                        value = firstName.toUpperCase(); // to uppercase<br>
+
+
+                        value = firstName[0];<br>
+                        value = firstName[2];<br>
+                        value = firstName[4];<br>
+                        value = firstName[firstName.length - 1];<br>
+                        <br>
+
+                        // Index Of<br>
+
+                        value = firstName.indexOf("L");<br>
+                        value = firstName.indexOf("e");<br>
+                        value = firstName.indexOf("l");
+                        <br>
+
+                        // Char At<br>
+
+                        value = firstName.charAt(0);<br>
+                        value = firstName.charAt(firstName.length -1);<br>
+                        <br>
+                        // Split
+
+
+                        value = langs.split(",");<br>
+
+                        // Replace<br>
+
+                        value = langs.replace("Python","CSS");
+                        <br>
+
+                        // Includes
+                        <br>
+                        value = langs.includes("Java");<br>
+                        value = langs.includes("asdsadsadsad");<br>
+
+
+                        console.log(value);<br>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Arrays </h2>
+                    <p>An array is a special variable, which can hold more than one value at a time.</p>
+
+                    <p>If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:</p>
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+
+                        let value; <br>
+
+                        const numbers = [43,56,33,23,44,35,5];<br>
+
+                        // const numbers2 = new Array(1,2,3,4,5,6,7);<br>
+
+                        const langs = ["Python","Java","C++","Javascript"];<br>
+
+                        const a = ["Hi",22,null,undefined,3.14];<br>
+                        <br>
+                        // Length of array<br>
+                        value = numbers.length;<br>
+                        // Indekslenme<br>
+                        value = numbers[1]<br>;
+                        value = numbers[2];<br><br>
+                        value = numbers[numbers.length -1];<br>
+
+
+                        //The join() method joins array elements into a string.<br>
+                        var fruits = ["Banana", "Orange", "Apple", "Mango"];<br>
+                        fruits.join("*");<br>
+                        console.log(fruits);<br>
+
+                        numbers[2] = 1000;<br>
+
+                        value = numbers;<br>
+                        <br>
+                        // Index Of<br>
+
+                        value = numbers.indexOf(1000);<br>
+
+                        // push to array<br>
+                        numbers.push(2000);<br>
+
+
+                        // Add new items to the beginning of an array <br>
+                        numbers.unshift(3000);
+                        <br><br>
+                        value = numbers;<br>
+
+
+                        // remove the last element of an array<br>
+
+                        numbers.pop()<br>
+
+                        value = numbers;<br>
+                        // remove the firs element<br>
+                        numbers.shift()<br>
+
+                        value = numbers;<br>
+
+                        // splice metod add or remove the element<br><br>
+                        numbers.splice(0,3); // remove to 0,1,2 indexs element<br><br>
+                        numbers.splice(0,2,"55","45"); // add to 55 and 45 element in array <br>
+
+                        value = numbers;<br>
+                        // Reverse the array<br>
+
+                        numbers.reverse();<br>
+
+                        value = numbers;<br>
+                        //sort of array but....<br>
+                        value = numbers.sort();<br>
+
+
+                        value = numbers.sort(function(x,y){ // ascending order<br>
+                        return x - y;<br>
+                        });<br>
+
+                        value = numbers.sort(function(x,y){ // descending order<br>
+                        return y-x;<br>
+                        });<br>
+                        <br>
+                        console.log(value)<br>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Loops </h2>
+                    <p>Loops are handy, if you want to run the same code over and over again, each time with a different value.
+
+                        Often this is the case when working with arrays:</p>
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                        <h3>For Loop</h3>
+                        for (i = 0; i < 5; i++) { <br>
+                            text += "The number is " + i;
+                            }
+
+                            <h3>While Loop</h3>
+                            while (i < 10) { <br>
+                                text += "The number is " + i;
+                                i++;
+                                }
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Switch-Case </h2>
+                    <p>This is how it works:
+                        <p> The switch expression is evaluated once.</p>
+                        <p> The value of the expression is compared with the values of each case.</p>
+                        If there is a match, the associated block of code is executed.
+                        <p> If there is no match, the default code block is executed.</p>
+                        <p> When JavaScript reaches a break keyword, it breaks out of the switch block (Exit of block)</p>
+                        <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                            const process = 1; <br>
+
+
+                            switch(process){ <br>
+                            case 1: <br>
+                            console.log("process 1"); <br>
+                            break; <br>
+                            case 2: <br>
+                            console.log("process 2"); <br>
+                            break; <br>
+
+                            case 3: <br>
+                            console.log("process 3"); <br>
+                            break; <br>
+                            default: <br>
+                            console.log("Incalid process"); <br>
+
+
+                            }
+
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Function </h2>
+                    <p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+
+                        <p>Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).</p>
+
+                        <p>The parentheses may include parameter names separated by commas:
+                            (parameter1, parameter2, ...)</p>
+
+                        <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                            hello = function() {<br>
+                            return "Hello World!";
+                            }
+                            <br>
+
+                            //bur new verison JS (ES6);<br>
+                            <br>
+                            hello = () => {<br>
+                            return "Hello World!";<br>
+                            }
+                            //same usege It gets shorter!<br>
+
+                            //general usege of JS function<br>
+                            function Hello(parameters) {<br>
+                            // code to be executed <br>
+                            }
+
+                            // functions can have parameters:<br>
+                            function Hello(parameter1, parameter2, parameter3) {<br>
+                            // code to be executed
+                            }
+
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Objects </h2>
+                    <p>Objects are very important programign in JS.
+
+
+                        <p> In JavaScript, almost "everything" is an object like</p>
+                        <p>Booleans, Strings, Dates, Functions ,Arrays , ..etc.
+                        </p>
+                        <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                            let value;<br>
+
+                            const programmer = { <br>
+                            name : "Alex ALex",<br>
+                            age : 25,<br>
+                            email: "abc@gmail.com",<br>
+                            langs : ["Python","Java","Javascript"],<br>
+
+                            address : {<br>
+                            city : "CA",<br>
+                            street : "Brodway 265"<br>
+                            },<br>
+
+                            work : function(){<br>
+                            console.log("Alex is stil working");
+                            }<br>
+
+
+                            }
+
+                            value = programmer;<br>
+
+                            value = programmer.email; // email<br>
+                            value = programmer["email"];<br>
+
+
+                            value = programmer.langs;<br>
+
+
+                            value = programmer.address.city;<br>
+
+
+                            programmer.work();
+
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>JSon </h2>
+                    <p>
+                        I have explaned and compare Json to XML. If you want to read this post please clikck this <a href=" http://www.mertfurkanerguden.com/blogs">link</a>:
+
+
+                    </p>
+                    <p>Json is a format transporting datas.
+                        Json is usually used when datas are sent from server to web site.</p>
+                    <p>JSON = JavaScript Object Notation
+                        JSON is a lightweight data interchange format</p>
+                    <p>JSON VALUES:</p>
+                    <ul>
+                        <li>We can presedent a lot of value of datas using by JSON .</li>
+                        <li>STRING</li>
+                        <li>INTEGER</li>
+                        <li>BOOLEAN</li>
+                        <li>ARRAY</li>
+                        <li>OBJECT</li>
+                        <li>NULLs</li>
+                    </ul>
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                        var employees = { <br>
+                        "employees":[<br>
+                        {"firstName":"anna", "lastName":"lec"},<br>
+                        {"firstName":"amt", "lastName":"Smith"},<br>
+                        {"firstName":"joseph", "lastName":"CJ"}<br>
+                        ]<br>
+                        };
+
+                        console.log(employees); //accses to employees object<br>
+
+                        var boss = ('{ "name":"Alex","age":30,"city":"New York","salary": "$2000" }'); <br>
+
+
+
+                        var obj = JSON.parse(boss);<br>
+                        document.getElementById("theboss").innerHTML = obj.name + " /" + obj.age;<br>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>DOM </h2>
+                    <p>With the object model, JavaScript gets all the power it needs to create dynamic HTML:</p>
+
+                        <p>JavaScript can change all the HTML elements in the page</p>
+                    <p>JavaScript can change all the HTML attributes in the page</p>
+                    <p>   JavaScript can change all the CSS styles in the page</p>
+                        <p>  JavaScript can remove existing HTML elements and attributes</p>
+                         <p> JavaScript can add new HTML elements and attributes</p>
+                         <p> JavaScript can react to all existing HTML events in the page</p>
+                       <p> JavaScript can create new HTML events in the page</p>
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                    for example
+                    <a href="https://www.w3schools.com/js/js_htmldom.asp"> <i class="far fa-calendar-check"></i></a> clik here
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+<section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Slider Application </h2>
+                
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                    for example
+                    <a href="https://github.com/mfurkan60/Javascript-Tutorial-for-Beginners/tree/master/Slider%20%20Application"> <i class="far fa-calendar-check"></i></a> clik here
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+<section>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Jquery Validation </h2>
+                
+
+                    <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+                    for example
+                    <a href="https://github.com/mfurkan60/Javascript-Tutorial-for-Beginners/tree/master/Jquery%20Validation"> <i class="far fa-calendar-check"></i></a> clik here
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-  </body>
+
+</body>
+
 </html>
